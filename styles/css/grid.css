@@ -1,0 +1,124 @@
+/*//////////////////////////////////////////////////////////////////
+Grid
+/////////////////////////////////////////////////////////////////////
+1. Grid Posts 
+2. Respansive Standard
+3. Respansive (max-width: 1240px)
+4. Respansive (max-width: 1240px) and (min-width: 980px)
+5. Respansive (max-width: 979px)
+6. Respansive (max-width: 979px) and (min-width: 768px)
+7. Respansive (max-width: 767px) and (min-width: 500px)
+8. Respansive (max-width: 499px)
+*/
+/********************************************************************
+1. Grid Posts
+*********************************************************************/
+.rd-post-module-2{height:100%;float:right;padding:10px;display:inline-flex;display:-webkit-inline-flex;display:-ms-inline-flexbox}
+.rd-post-module-2 .rd-thumb{border-radius:0!important;overflow:hidden;float:right;position:relative;width:100%!important}
+.rd-post-module-2 .rd-post-thumbnail{position:relative;height:auto;width:100%;display:block;overflow:hidden}
+.rd-post-module-2:not(.has-post-thumbnail) .rd-details{margin:0!important}
+.rd-post-module-2 .rd-details{width:100%!important;position:relative}
+.rd-post-module-2 .rd-category{width:100%;float:right;position:absolute;bottom:0;width:100%;float:right;margin:0;right:5px;bottom:5px}
+.rd-post-module-2 .rd-post-warp{float:right;width:100%;height:100%}
+.rd-grid .rd-post-item{list-style:none}
+.rd-grid .lSSlideOuter{padding:10px!important;width:100%;box-shadow:0 0 0 1px rgba(150,150,150,0.10)}
+.rd-grid .lSSlideOuter .rd-post-list{background:none!important;box-shadow:none!important}
+.rd-grid.rd-slider .rd-post-list{display:inline-flex;display:-webkit-inline-flex;float:right;display:-ms-inline-flexbox}
+.rd_center_grid_1c .rd-line,.rd_mini_grid_1c div.rd-row,.rd_center_grid_2c div.rd-row:nth-of-type(4n),.rd_content_grid_2c div.rd-row:nth-of-type(4n),.rd_content_grid_3c div.rd-row:nth-of-type(6n),.rd_center_grid_3c div.rd-row:nth-of-type(6n),.rd_center_grid_4c div.rd-row:nth-of-type(8n),.rd_content_grid_4c div.rd-row:nth-of-type(8n),.rd_content_grid_6c div.rd-row:nth-of-type(12n){display:inline-block}
+.rd-mini .rd-grid .rd-post-list{background:none!important;box-shadow:none!important;padding:0!important;border:none!important}
+.rd-related .rd-title a{border-bottom:none!important}
+.rd-mini .rd-grid div.rd-post-item:first-child{padding-top:0!important}
+.rd-grid .rd-post-flex{display:inline-flex;display:-webkit-inline-flex;display:-ms-inline-flexbox; width:100%;}
+.rd-mini .rd-post-module-2{padding:10px}
+.rd-post-module-2 .rd-post-warp{background:#fff}
+.rd-post-module-2 .rd-details{padding:20px}
+.rd-mini .rd-grid div.rd-post-item:last-child{padding-bottom:0!important}
+.rd-mini .rd-grid .rd-post-warp{overflow:hidden}
+.rd-center .rd-grid .rd-post-list,.rd-content .rd-grid .rd-post-list{overflow:hidden}
+.rd-mini .rd-grid .rd-post{border-radius:0}
+.rd-post-module-1 .rd-thumb:hover .rd-post-thumbnail::before,.rd-post-module-2 .rd-thumb:hover .rd-post-thumbnail::before{-webkit-transition:background-color .25s ease-out;-moz-transition:background-color .25s ease-out;-o-transition:background-color .25s ease-out;transition:background-color .25s ease-out;background:rgba(0,0,0,0.4)!important}
+/********************************************************************
+2. Respansive Standard
+*********************************************************************/
+.rd-grid .rd-post-1-1 .rd-title a{font-size:26px}
+.rd-grid .rd-post-1-2 .rd-title a{font-size:17px}
+.rd-grid .rd-post-2-3 .rd-title a{font-size:19px}
+.rd-grid .rd-post-2-5 .rd-title a{font-size:15px}
+.rd-grid .rd-post-1-3 .rd-title a{font-size:14px}
+.rd-grid .rd-post-1-1 .rd-excerpt{font-size:16px}
+.rd-grid .rd-post-2-3 .rd-excerpt{font-size:15px}
+.rd-grid .rd-post-1-1 .rd-details{padding:20px}
+.rd-grid .rd-post-1-2 .rd-details{padding:18px}
+.rd-grid .rd-post-2-5 .rd-details{padding:16px}
+.rd-grid .rd-post-1-3 .rd-details{padding:14px}
+.rd-grid .rd-post-1-2 .rd-excerpt{font-size:14px}
+.rd-grid .rd-post-2-5 .rd-excerpt{font-size:12px}
+.rd-grid .rd-post-1-3 .rd-excerpt{font-size:11px}
+.rd-mini .rd-module-item .rd-post .rd-meta li,.rd-mini .rd-module-item .rd-post .rd-meta a,.rd-mini .rd-module-item .rd-post .rd-category a{font-size:11px}
+/********************************************************************
+4. Respansive (max-width: 1240px) and (min-width: 980px)
+*********************************************************************/
+@media (max-width: 1240px) and (min-width: 980px) {
+.rd-grid .rd-post-1-1 .rd-title a{font-size:20px!important}
+.rd-grid .rd-post-1-2 .rd-title a{font-size:14px}
+.rd-grid .rd-post-2-3 .rd-title a{font-size:17px}
+ .rd-grid .rd-post-1-3 .rd-title a{font-size:12px}
+.rd-grid .rd-post-2-5 .rd-title a{font-size:12px}
+.rd-grid .rd-post-1-3 .rd-title a{font-size:12px}
+.rd-grid .rd-post-1-1 .rd-excerpt{font-size:14px!important}
+ .rd-grid .rd-post-2-5 .rd-excerpt{font-size:12px}
+ .rd-grid .rd-post-2-3 .rd-excerpt{font-size:13px}
+.rd-grid .rd-post-1-2 .rd-excerpt{font-size:12px!important}
+ .rd-grid .rd-post-1-3 .rd-excerpt{ display: none;}
+}
+/********************************************************************
+5. Respansive (max-width: 979px)
+*********************************************************************/
+ 
+/********************************************************************
+6. Respansive (max-width: 979px) and (min-width: 768px)
+*********************************************************************/
+@media (max-width: 979px) and (min-width: 768px) {
+.rd-grid div.rd-row{ display:none !important; }
+.rd-grid .rd-979-1c .rd-title a{font-size:22px!important}
+.rd-grid .rd-979-2c .rd-title a{font-size:18px!important}
+.rd-grid .rd-979-3c .rd-title a{font-size:14px!important}
+.rd-grid .rd-979-4c .rd-title a{font-size:12px!important}
+.rd-grid .rd-979-1c .rd-excerpt{font-size:16px!important}
+.rd-grid .rd-979-2c .rd-excerpt{font-size:13px!important}
+ .rd-grid .rd-979-3c .rd-excerpt,.rd-grid .rd-979-4c .rd-excerpt,.rd-grid .rd-979-4c .rd-meta{display:none}
+.rd-grid div.rd-row.rd-col-979-2c:nth-child(4n),.rd-content .rd-list div.rd-row.rd-col-979-2c:nth-child(4n),div.rd-row.rd-col-979-1c,.rd-grid div.rd-row.rd-col-979-1c:nth-child(2n),.rd-grid div.rd-row.rd-col-979-3c:nth-of-type(6n){ display:inline-block !important;}
+}
+@media (max-width: 979px) {
+.rd-grid .rd-post-flex{display:inline-block}
+.rd-post-module-2 .rd-details{padding:15px}
+.rd-grid .rd-post-item{display:inline-block;float:none;vertical-align:top}
+}
+/********************************************************************
+7. Respansive  (max-width: 767px) and (min-width: 500px)
+*********************************************************************/
+@media (max-width: 767px) and (min-width: 500px) {
+.rd-grid div.rd-row{ display:none !important;}
+.rd-grid div.rd-row.rd-col-767-2c:nth-of-type(4n),.rd-grid div.rd-row.rd-col-767-1c,.rd-grid div.rd-row.rd-col-767-3c:nth-of-type(6n){display:inline-block !important;}
+.rd-grid .rd-post.rd-767-1c .rd-title a{font-size:18px!important}
+.rd-grid .rd-post.rd-767-2c .rd-title a{font-size:15px!important}
+.rd-grid .rd-post.rd-767-3c .rd-title a{font-size:12px!important}
+.rd-grid .rd-excerpt,.rd-grid .rd-post.rd-767-3c .rd-meta,.rd-grid .rd-767-3c.rd-post .rd-category{display:none!important}
+.rd-post-module-2 .rd-details{
+	padding:15px;
+}
+}
+/********************************************************************
+8. Respansive (max-width: 499px)
+*********************************************************************/
+@media (max-width: 499px) {
+.rd-grid .rd-post.rd-499-1c .rd-title a{font-size:15px!important}
+.rd-grid .rd-post.rd-499-2c .rd-title a{font-size:13px!important}
+.rd-grid .rd-post.rd-499-1c .rd-excerpt{font-size:12px!important}
+.rd-grid div.rd-row{ display:none !important;}
+.rd-grid div.rd-row.rd-col-499-1c{ display:inline-block !important;}
+.rd-grid div.rd-row.rd-col-499-2c:nth-of-type(4n){ display:inline-block !important;}
+.rd-grid div.rd-post.rd-499-2c .rd-category,.rd-grid div.rd-post .rd-excerpt{display:none}
+.rd-post-module-2 .rd-details{padding:12px;}
+
+}
